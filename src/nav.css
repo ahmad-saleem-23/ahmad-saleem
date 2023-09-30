@@ -29,7 +29,8 @@ nav {
   height: 50px;
   border-radius: 50%;
   background: transparent;
-  right: 20px; 
+  right: 15px; 
+  top: 20px;
   z-index: 3;
 }
 
@@ -37,7 +38,7 @@ nav {
   padding: 25px;
   position: fixed;
   top: 100px;
-  right: 25px;
+  right: 45px;
   width: 230px;
   }
 
