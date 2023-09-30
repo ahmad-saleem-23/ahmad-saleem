@@ -1,14 +1,14 @@
 import './App.css'
 import AboutMe from './component/AboutMe'
+import Logo from './component/Logo'
 import { Nav } from './component/menu/Nav'
 
 function App() {
   return (
     <>
+      <Logo />
       <Nav />
       <AboutMe />
-      <div></div>
-      <h1>Vite + React</h1>
     </>
   )
 }
