@@ -1,18 +1,14 @@
-
-
 import './App.css'
+import AboutMe from './component/AboutMe'
 import { Nav } from './component/menu/Nav'
 
 function App() {
-
   return (
     <>
-    <Nav/>
-      <div>
-       
-      </div>
+      <Nav />
+      <AboutMe />
+      <div></div>
       <h1>Vite + React</h1>
-     
     </>
   )
 }
