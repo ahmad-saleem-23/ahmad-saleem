@@ -75,7 +75,6 @@ function AboutMe() {
               <img
                 src="./images/362885418_996708675096235_2649645303496825253_n.jpg"
                 alt=""
-                className="h-1/2 max-w-full object-contain"
               />
             </div>
           </motion.div>

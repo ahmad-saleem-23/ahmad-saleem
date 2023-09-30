@@ -6,6 +6,7 @@ import { Nav } from './component/menu/Nav'
 function App() {
   return (
     <>
+    
       <Logo />
       <Nav />
       <AboutMe />
