@@ -40,7 +40,7 @@ function AboutMe() {
               </p>
             </div>
             <div className="flex justify-center">
-              <p>
+              <p style={{ display: 'flex' }}>
                 <a href="https://github.com/ahmad-saleem-23">
                   <img
                     src="./images/icons8-github-50.png"
@@ -74,7 +74,9 @@ function AboutMe() {
             <div className="flex justify-center">
               <img
                 src="./images/362885418_996708675096235_2649645303496825253_n.jpg"
-                alt=""
+                alt="self-image"
+                className='rounded-2xl'
+                style={{ width: '86%' }}
               />
             </div>
           </motion.div>
