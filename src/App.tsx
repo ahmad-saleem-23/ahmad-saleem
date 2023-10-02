@@ -4,14 +4,21 @@ import Logo from './component/Logo'
 import { Nav } from './component/menu/Nav'
 import Contacts from './component/Contacts'
 
-function App() {
+
+const App = () => {
   return (
     <>
-    
+    <div className="realative z-0 bg-primary ">
+      <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center  '>
       <Logo />
       <Nav />
+      
+      {/* </div> */}
       <AboutMe />
+      {/* <div className='relative z-0'> */}
       <Contacts />
+      </div>
+    </div>
     </>
   )
 }
