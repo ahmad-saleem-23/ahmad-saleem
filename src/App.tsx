@@ -3,6 +3,7 @@ import AboutMe from './component/AboutMe'
 import Logo from './component/Logo'
 import { Nav } from './component/menu/Nav'
 import Contacts from './component/Contacts'
+// import Heading from './component/Heading'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center  '>
       <Logo />
       <Nav />
+      {/* <Heading /> */}
       
       {/* </div> */}
       <AboutMe />
