@@ -3,7 +3,7 @@ import {styles} from './styles'
 
 const Hero =()=>{
   return(
-    <section className='relativ w-full h-screen mx-auto'>
+    <section className='relativ w-full h-screen mx-auto p-top-20'>
       Hero</section>
   )
 }
