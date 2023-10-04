@@ -208,3 +208,76 @@
     width: 80%;
   }
 }
+
+/* 
+.horizontal-scroll-loop {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  white-space: nowrap;
+
+ 
+}
+
+.scroll-container {
+  display: inline-block;
+  white-space: nowrap;
+  transition: width 0.3s ease-in-out;
+}*/
+
+/* .item {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: #2f218a;
+  border: 1px solid #ddd;
+  min-width: 150px;
+} 
+
+@keyframes infiniteScroll {
+  from {transform: translateX(0)}
+  to {transform: translateX(-50%)}
+}
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+.horizontal-scrolling-items {
+  display: flex;
+  font-size: 40px;
+  width: 2600px;
+  animation-name: infiniteScroll;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.horizontal-scrolling-items__item {
+  white-space: nowrap;
+} */
+
+/* HorizontalScroll.css */
+
+
+
+.scrolling-text {
+  overflow: hidden;
+  width: 100%;
+ 
+  display: flex;
+  align-items: center;
+  background-color: rgb(16, 6, 73);
+}
+
+.rail {
+  display: flex;
+}
+
+h4 {
+  white-space: nowrap;
+  font-size: 200px;
+  font-weight: 900;
+  letter-spacing: 120px;
+  line-height: 1em;
+  margin: 0 2rem 0 0;
+  color: white;
+}
