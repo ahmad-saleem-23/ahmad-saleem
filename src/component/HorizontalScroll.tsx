@@ -1,102 +1,93 @@
-// import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import SectionWrapper from '../hoc/SectionWrapper'
+import Tech from './Tech';
 
 const HorizontalScrollLoop = () => {
-  // const containerRef = useRef<HTMLDivElement | null>(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
 
-  // useEffect(() => {
-  //   const container = containerRef.current;
+  useEffect(() => {
+    const container = containerRef.current;
 
-  //   if (!container) return;
+    if (!container) return;
 
-  //   const scrollContainer = container.querySelector('.scroll-container') as HTMLDivElement | null;
-  //   const items = scrollContainer?.querySelectorAll('.item');
+    const scrollContainer = container.querySelector('.scroll-container') as HTMLDivElement | null;
+    const items = scrollContainer?.querySelectorAll('.item');
 
-  //   if (!scrollContainer || !items) return;
+    if (!scrollContainer || !items) return;
 
-  //   const totalWidth = Array.from(items).reduce(
-  //     (acc, item) => acc + (item.clientWidth || 0),
-  //     0
-  //   );
+    const totalWidth = Array.from(items).reduce(
+      (acc, item) => acc + (item.clientWidth || 0),
+      0
+    );
 
-  //   scrollContainer.style.width = `${totalWidth}px`;
+    scrollContainer.style.width = `${totalWidth}px`;
 
-  //   let scrollLeft = 0;
+    let scrollLeft = 0;
 
-  //   const scroll = () => {
-  //     scrollLeft += 1;
-  //     if (scrollLeft >= totalWidth) {
-  //       scrollLeft = 0;
-  //     }
-  //     container.scrollLeft = scrollLeft;
-  //   };
+    const scroll = () => {
+      scrollLeft += 1;
+      if (scrollLeft >= totalWidth) {
+        scrollLeft = 0;
+      }
+      container.scrollLeft = scrollLeft;
+    };
 
-  //   let scrollInterval = setInterval(scroll, 30);
+    let scrollInterval = setInterval(scroll, 30);
 
-  //   container.addEventListener('mouseenter', () => {
-  //     clearInterval(scrollInterval);
-  //   });
+    container.addEventListener('mouseenter', () => {
+      clearInterval(scrollInterval);
+    });
 
-  //   container.addEventListener('mouseleave', () => {
-  //     scrollInterval = setInterval(scroll, 30);
-  //   });
+    container.addEventListener('mouseleave', () => {
+      scrollInterval = setInterval(scroll, 30);
+    });
 
-  //   // Add event listener for mouse wheel scrolling
-  //   const handleWheel = (event: WheelEvent) => {
-  //     if (event.deltaY > 0) {
-  //       scrollLeft += 10; // Increase scroll speed when scrolling down
-  //     } else {
-  //       scrollLeft -= 10; // Increase scroll speed when scrolling up
-  //     }
+    // Add event listener for mouse wheel scrolling
+    const handleWheel = (event: WheelEvent) => {
+      if (event.deltaY > 0) {
+        scrollLeft += 20; // Increase scroll speed when scrolling down
+      } else {
+        scrollLeft -= 20; // Increase scroll speed when scrolling up
+      }
 
-  //     if (scrollLeft >= totalWidth) {
-  //       scrollLeft = 0;
-  //     } else if (scrollLeft < 0) {
-  //       scrollLeft = totalWidth - container.clientWidth;
-  //     }
+      if (scrollLeft >= totalWidth) {
+        scrollLeft = 0;
+      } else if (scrollLeft < 0) {
+        scrollLeft = totalWidth - container.clientWidth;
+      }
 
-  //     container.scrollLeft = scrollLeft;
-  //     event.preventDefault(); // Prevent default page scrolling
-  //   };
+      container.scrollLeft = scrollLeft;
+      event.preventDefault(); // Prevent default page scrolling
+    };
 
-  //   container.addEventListener('wheel', handleWheel);
+    container.addEventListener('wheel', handleWheel);
 
-  //   return () => {
-  //     clearInterval(scrollInterval);
-  //     container.removeEventListener('wheel', handleWheel); // Remove wheel event listener
-  //   };
-  // }, []);
+    return () => {
+      clearInterval(scrollInterval);
+      container.removeEventListener('wheel', handleWheel); // Remove wheel event listener
+    };
+  }, []);
 
   return (
-    // <div className="horizontal-scroll-loop" ref={containerRef}>
-    //   <div className="scroll-container">
-    //     <div className="item">Item 1</div>
-    //     <div className="item">Item 2</div>
-    //     <div className="item">Item 3</div>
-    //     <div className="item">Item 4</div>
-    //     <div className="item">Item 5</div>  
-    //     <div className="item">Item 6</div>
-    //     <div className="item">Item 7</div>
+    <div className="horizontal-scroll-loop" ref={containerRef}>
+      <div className="scroll-container">
+       <div className='item'><Tech/></div>
         
-    //     {/* Add more items here */}
-    //   </div>
-    // </div>
+        {/* Add more items here */}
+      </div>
+    </div>
     
 
-<div className="container">
-<div className="horizontal-scrolling-items">
+// <div className="container ">
+// <div className="horizontal-scrolling-items">
 
-<div className="horizontal-scrolling-items__item">
-Here is some horizontally scrolling text used for a tutorial. It will loop smoothly.&nbsp
-</div>
+// <div className="horizontal-scrolling-items__item">
+// <Tech/>
+// </div>
 
-<div className="horizontal-scrolling-items__item">
-Here is some horizontally scrolling text used for a tutorial. It will loop smoothly.&nbsp
-</div>
-
-</div>
+// </div>
   
-</div>
+// </div>
 
 
   );
@@ -107,8 +98,9 @@ export default SectionWrapper(HorizontalScrollLoop, 'HorizontalScrollLoop')
 
 // import { useEffect, useRef } from 'react';
 // import gsap from 'gsap';
+// import Tech from './Tech';
 
-// const HorizontalScroll: React.FC = () => {
+// const HorizontalScrollLoop: React.FC = () => {
 //   const railRef = useRef<HTMLDivElement | null>(null);
 
 //   useEffect(() => {
@@ -188,12 +180,14 @@ export default SectionWrapper(HorizontalScrollLoop, 'HorizontalScrollLoop')
 //   return (
 //     <div className="scrolling-text">
 //       <div className="rail" ref={railRef}>
-//         <h4>1211</h4>
+//         {/* <h4>1211</h4>
 //         <h4>23333</h4>
-//         <h4>344444</h4>
+        
+//         <h4>344444</h4> */}
+//         <h4><Tech/></h4>
 //       </div>
 //     </div>
 //   );
 // };
 
-// export default HorizontalScroll;
+// export default HorizontalScrollLoop;

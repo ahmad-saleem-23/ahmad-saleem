@@ -5,6 +5,7 @@ import Contacts from './component/Contacts'
 import Hero from './component/Hero'
 import HorizontalScrollLoop from './component/HorizontalScroll'
 import Experience from './component/Experience'
+import Tach from './component/Tech'
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
         </div>
         <AboutMe />
         <Experience />
-        <HorizontalScrollLoop/>
+        <Tach />
+        {/* <HorizontalScrollLoop/> */}
       
         <div className="relative z-0">
           <Contacts />

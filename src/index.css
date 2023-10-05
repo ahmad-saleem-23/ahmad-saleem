@@ -209,7 +209,9 @@
   }
 }
 
-/* 
+/* HorizontalScroll.css */
+
+
 .horizontal-scroll-loop {
   width: 100%;
   overflow-x: hidden;
@@ -223,17 +225,13 @@
   display: inline-block;
   white-space: nowrap;
   transition: width 0.3s ease-in-out;
-}*/
+}
 
 .item {
   display: inline-block;
-  padding: 10px;
-  margin: 5px;
-  background-color: #2f218a;
-  border: 1px solid #ddd;
-  min-width: 150px;
+   min-width: 150px;
 } 
-
+/* 
 @keyframes infiniteScroll {
   from {transform: translateX(0)}
   to {transform: translateX(-50%)}
@@ -253,13 +251,13 @@
 }
 .horizontal-scrolling-items__item {
   white-space: nowrap;
-}
+} */
 
 /* HorizontalScroll.css */
 
+/* 
 
-
-/* .scrolling-text {
+.scrolling-text {
   overflow: hidden;
   width: 100%;
  
