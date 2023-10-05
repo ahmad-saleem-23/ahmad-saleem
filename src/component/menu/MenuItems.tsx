@@ -19,8 +19,8 @@ const variants = {
 }
 
 const colors = ['#010101', '#010101', '#010101', '#010101', '#010101']
-const list = ['Home', 'About Me', 'Experience',  'Photography','Contacts']
-const listLink = ['#', '#aboutMe', '#work',  'photography','#contacts',]
+const list = ['Home', 'About Me', 'Experience', 'Tech', 'Contacts']
+const listLink = ['#', '#aboutMe', '#work', '#tech', '#contacts']
 
 interface Props {
   i: number
@@ -31,7 +31,7 @@ export const MenuItem = ({ i }: Props) => {
 
   return (
     // <Link to={`${listLink[i]}`}>
-      <a href={`${listLink[i]}`}>
+    <a href={`${listLink[i]}`}>
       <motion.li
         className="navLi"
         variants={variants}
@@ -43,7 +43,7 @@ export const MenuItem = ({ i }: Props) => {
         </div>
         {/* <div className="icon-placeholder" style={style} /> */}
       </motion.li>
-    {/* </Link> */}
+      {/* </Link> */}
     </a>
   )
 }
