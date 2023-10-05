@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const variants = {
   open: {
@@ -19,8 +19,8 @@ const variants = {
 }
 
 const colors = ['#010101', '#010101', '#010101', '#010101', '#010101']
-const list = ['Home', 'Gallery', 'Videos', 'Contacts', 'Photography']
-const listLink = ['/', 'gallery', 'videos', 'contacts', 'photography']
+const list = ['Home', 'About Me', 'Experience',  'Photography','Contacts']
+const listLink = ['#', '#aboutMe', '#work',  'photography','#contacts',]
 
 interface Props {
   i: number
@@ -30,7 +30,8 @@ export const MenuItem = ({ i }: Props) => {
   const style = { border: `2px solid ${colors[i]}` }
 
   return (
-    <Link to={`${listLink[i]}`}>
+    // <Link to={`${listLink[i]}`}>
+      <a href={`${listLink[i]}`}>
       <motion.li
         className="navLi"
         variants={variants}
@@ -42,6 +43,7 @@ export const MenuItem = ({ i }: Props) => {
         </div>
         {/* <div className="icon-placeholder" style={style} /> */}
       </motion.li>
-    </Link>
+    {/* </Link> */}
+    </a>
   )
 }

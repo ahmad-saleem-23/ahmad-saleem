@@ -4,6 +4,7 @@ import { Nav } from './component/menu/Nav'
 import Contacts from './component/Contacts'
 import Hero from './component/Hero'
 import HorizontalScrollLoop from './component/HorizontalScroll'
+import Experience from './component/Experience'
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
           <Hero />
         </div>
         <AboutMe />
+        <Experience />
         <HorizontalScrollLoop/>
+      
         <div className="relative z-0">
           <Contacts />
         </div>

@@ -43,7 +43,7 @@ const ComputersCanvas = () => {
         minPolarAngle={Math.PI / 2}
         dampingFactor={0.3}
       />
-       
+     
       <Stage contactShadow={{ resolution: 1024, scale: 1000 }}>
        <ComputerModel/>
       </Stage>
