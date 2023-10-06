@@ -15,15 +15,19 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  
+
+  
 } from '../assets'
+import PLaw from '../assets/company/PLaw.png'
+import DevAcademy from '../assets/company/DevAcademy.png'
+import provoke from '../assets/company/provoke.png'
+import accenture from '../assets/company/accenture.png'
+import book from '../assets/company/book.png'
 
 export const navLinks = [
   {
@@ -118,46 +122,48 @@ const experiences = [
   {
     title: 'Lawyer',
     company_name: 'Pheonix Law',
-    icon: starbucks,
+    icon: PLaw,
     iconBg: '#383E56',
     date: 'August 2021 - December 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Managed multiple legal matters in a fast-paced environment, meeting deadlines and communicating effectively with clients to achieve optimal outcomes.',
+      'Conducted legal research in public, constitutional, Treaty of Waitangi, and International Law areas to formulate solutions for contested issues.',
+      'ImplemWorked as part of a team, collaborating with colleagues to develop strategies and approaches for litigation proceduresenting responsive design and ensuring cross-browser compatibility.',
+      'Participating in code reviews and Demonstrated professional communication skills, including liaising with clients, following up on Court and Tribunal directions, and filing legal documents.providing constructive feedback to other developers.',
+      'Developed problem-solving skills in the context of legal matters, finding efficient and effective solutions to complex issues.'
     ],
   },
   {
     title: 'Training Developer',
     company_name: 'Dev Academy Aotearoa',
-    icon: tesla,
+    icon: DevAcademy,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - May 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Completed a 17-week full immersion software development bootcamp that closely mimicked real-life development team dynamics.',
+      'Collaborating with cross-functGained proficiency in modern web development technologies including HTML5, CSS3, JavaScript, React, Redux, Knex, SQLite3, Node.js, and Express.js.ional teams including designers, product managers, and other developers to create high-quality products.',
+      'Participated in hands-on challenges and constructed web applications through pair programming exercises. As well as, developing skills in unit testing, asynchronous programming techniques, RESTful APIs, and version control using GitHub.',
+      'Emphasised human skills, empathy, and well-being, with opportunities to provide and receive growth feedback and work in teams using agile methodology.',
+      'Contributed to the creation of SubMinder, a subscription tracking app, as part of a team for the final project. Implemented authentication and sign-in functionality, set up email reminders using SendGrid API, and designed a form to add new subscriptions.'
     ],
   },
   {
     title: 'Hack to the Future Hackathon',
     company_name: 'Provoke Solutions',
-    icon: shopify,
+    icon: provoke,
     iconBg: '#383E56',
     date: 'May 2023',
     points: [
-      'This past weekend Auckland and Wellington transformed into innovation hubs during our Hack to the Future: A GPT Hackathon.',
-      'Teams showcased the power of teamwork, determination, and creativity, harnessing the power of GPT and generative AI to turn ideas into tangible solutions. ',
-      'Each product created spoke volumes about the potential of innovation when diverse minds work together.',
-      "We're proud to say that the future of technology is promising, and we can't wait to see how the projects from the hackathon continue to evolve.",
-    ],
+      'During the recent Hack to the Future: A GPT Hackathon, I had the opportunity to be part of an innovative and dynamic team that harnessed the power of GPT and generative AI to create cutting-edge solutions. Our diverse team worked tirelessly to turn ideas into tangible solutions, and it was truly inspiring to witness the impact of teamwork in the field of AI.',
+      'One of the highlights of the event was witnessing the diverse projects that emerged from the hackathon. These projects, including our own, showcased the promise of technology in addressing real-world challenges.',
+      'Our project, in particular, focused on creating a virtual version of ourselves online, powered by a model trained to mimic our unique ways of dealing with tasks and communication. This virtual counterpart could seamlessly respond to messages in a manner indistinguishable from our own, offering the potential to revolutionize personal and professional interactions. Additionally, our AI was designed to assist with tasks and applications based on our data, essentially serving as a personalized virtual assistant.',
+      'The hackathon was a testament to the exciting future of AI and the transformative possibilities it holds. It was an honor to be part of this event, and I look forward to seeing how the projects developed during the hackathon will continue to evolve and make a meaningful impact in the world of technology and beyond.',
+      ],
   },
   {
     title: 'Accenture Tech Bootcamp NZ',
     company_name: 'Accenture',
-    icon: meta,
+    icon: accenture,
     iconBg: '#E6DEDD',
     date: 'Jully 2023',
     points: [
@@ -168,9 +174,9 @@ const experiences = [
     ],
   },
   {
-    title: 'Self improvement',
-    company_name: 'Meta',
-    icon: meta,
+    title: 'Self learning and improvement',
+    company_name: '...',
+    icon: book,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - Present',
     points: [
