@@ -19,9 +19,6 @@ import {
   jobit,
   tripguide,
   threejs,
-  
-
-  
 } from '../assets'
 import PLaw from '../assets/company/PLaw.png'
 import DevAcademy from '../assets/company/DevAcademy.png'
@@ -96,27 +93,12 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
-  },
+
   {
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
-]
+ ]
 
 const experiences = [
   {
@@ -130,7 +112,7 @@ const experiences = [
       'Conducted legal research in public, constitutional, Treaty of Waitangi, and International Law areas to formulate solutions for contested issues.',
       'ImplemWorked as part of a team, collaborating with colleagues to develop strategies and approaches for litigation proceduresenting responsive design and ensuring cross-browser compatibility.',
       'Participating in code reviews and Demonstrated professional communication skills, including liaising with clients, following up on Court and Tribunal directions, and filing legal documents.providing constructive feedback to other developers.',
-      'Developed problem-solving skills in the context of legal matters, finding efficient and effective solutions to complex issues.'
+      'Developed problem-solving skills in the context of legal matters, finding efficient and effective solutions to complex issues.',
     ],
   },
   {
@@ -144,7 +126,7 @@ const experiences = [
       'Collaborating with cross-functGained proficiency in modern web development technologies including HTML5, CSS3, JavaScript, React, Redux, Knex, SQLite3, Node.js, and Express.js.ional teams including designers, product managers, and other developers to create high-quality products.',
       'Participated in hands-on challenges and constructed web applications through pair programming exercises. As well as, developing skills in unit testing, asynchronous programming techniques, RESTful APIs, and version control using GitHub.',
       'Emphasised human skills, empathy, and well-being, with opportunities to provide and receive growth feedback and work in teams using agile methodology.',
-      'Contributed to the creation of SubMinder, a subscription tracking app, as part of a team for the final project. Implemented authentication and sign-in functionality, set up email reminders using SendGrid API, and designed a form to add new subscriptions.'
+      'Contributed to the creation of SubMinder, a subscription tracking app, as part of a team for the final project. Implemented authentication and sign-in functionality, set up email reminders using SendGrid API, and designed a form to add new subscriptions.',
     ],
   },
   {
@@ -158,7 +140,7 @@ const experiences = [
       'One of the highlights of the event was witnessing the diverse projects that emerged from the hackathon. These projects, including our own, showcased the promise of technology in addressing real-world challenges.',
       'Our project, in particular, focused on creating a virtual version of ourselves online, powered by a model trained to mimic our unique ways of dealing with tasks and communication. This virtual counterpart could seamlessly respond to messages in a manner indistinguishable from our own, offering the potential to revolutionize personal and professional interactions. Additionally, our AI was designed to assist with tasks and applications based on our data, essentially serving as a personalized virtual assistant.',
       'The hackathon was a testament to the exciting future of AI and the transformative possibilities it holds. It was an honor to be part of this event, and I look forward to seeing how the projects developed during the hackathon will continue to evolve and make a meaningful impact in the world of technology and beyond.',
-      ],
+    ],
   },
   {
     title: 'Accenture Tech Bootcamp NZ',
@@ -167,10 +149,10 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Jully 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'I participated in a four-day bootcamp with Accenture, where I engaged in a range of sessions, including presentations from Accenture leaders, educational workshops, and "build" sessions. During the build session, I was assigned to a team, and together with my fellow participants, we embarked on a project under the guidance of Accenture Mentors. Our collective efforts culminated in a remarkable achievement as our team, SubsWise, clinched the first-place position at the end of the bootcamp.',
+      "Our team's primary objective was to develop a mobile application known as 'SunWise,' designed to serve as a subscription reminder app. This innovative app aimed to help users keep track of their various subscriptions, ensuring they never miss a payment or renewal date again. The project was built using React Native, and it demanded effective collaboration and coordination among team members to bring it to fruition.",
+      "Our team was a diverse group with a wide range of skills, and together, we used JavaScript and TypeScript to craft the app's functionality. I took on the responsibility of developing the backend infrastructure and functionality on the front-end, while my teammates focused on enhancing the frontend experience. Due to the time constraints inherent to the bootcamp, we decided to utilize SQLite as our initial database solution, with the intention of incorporating PostgreSQL in the future to further optimize the app's data handling capabilities.",
+      'Working on the SunWise project at the Accenture bootcamp was an enriching experience that allowed me to hone my technical skills, collaborate effectively within a team, and bring a creative and practical solution to life. This experience not only helped me grow as a developer but also reinforced the value of teamwork and innovation in achieving success in the ever-evolving field of technology.',
     ],
   },
   {
@@ -178,12 +160,12 @@ const experiences = [
     company_name: '...',
     icon: book,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    date: 'Jully 2023 - Present',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'I am actively engaged in expanding my technical skill set by exploring new programming languages, frameworks, and tools. This includes self-paced online courses, tutorials, and hands-on projects.',
+      'During this phase, I am dedicating a significant portion of my time to conceptualizing, developing, and launching personal projects. These projects not only serve as practical applications of my skills but also provide an opportunity to explore innovative ideas and solutions.',
+      'Implementing responsive design aI participate in tech-related meetups, webinars, and conferences, both online and in person, to stay up-to-date with industry trends and connect with like-minded professionals.',
+      'I seek guidance from experienced mentors and professionals in the field, leveraging their expertise to accelerate my learning journey and make informed decisions about my career path.',
     ],
   },
 ]

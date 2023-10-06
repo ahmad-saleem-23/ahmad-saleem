@@ -56,7 +56,7 @@ function AboutMe() {
                     className="h-35 w-35"
                   />
                 </a>
-                <a href="./images/Ahmed Saleem CV.pdf">
+                <a href="/images/Ahmed Saleem CV.pdf">
                   <img
                     src="./images/icons8-cv-50.png"
                     alt="CV"
