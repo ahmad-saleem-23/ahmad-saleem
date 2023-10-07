@@ -3,7 +3,7 @@ import Logo from './component/Logo'
 import { Nav } from './component/menu/Nav'
 import Contacts from './component/Contacts'
 import Hero from './component/Hero'
-import HorizontalScrollLoop from './component/HorizontalScroll'
+// import HorizontalScrollLoop from './component/HorizontalScroll'
 import Experience from './component/Experience'
 import Tach from './component/Tech'
 
