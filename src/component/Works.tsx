@@ -2,13 +2,19 @@ import SectionWrapper from '../hoc/SectionWrapper'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { github } from '../assets'
+import github from '../assets/github.png'
 import linkimg from '../assets/linkimg.png'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
-interface WorkProps {
-  // Define the props for the Work component here
+interface ProjectCardProps {
+  index: number
+  name: string
+  description: string
+  tags: { name: string; color: string }[]
+  image: string
+  source_code_link: string
+  link: string
 }
 const ProjectCard = ({
   index,
@@ -18,7 +24,7 @@ const ProjectCard = ({
   image,
   source_code_link,
   link,
-}) => {
+}: ProjectCardProps) => {
   return (
     <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
@@ -78,12 +84,10 @@ const ProjectCard = ({
     </motion.div>
   )
 }
-const Work: React.FC<WorkProps> = (props) => {
-  // Implement the Work component logic here
-
+const Work = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0)}>
         <p className={`${styles.sectionSubText} text-center`}>My work</p>
         <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
       </motion.div>

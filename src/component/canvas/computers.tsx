@@ -44,7 +44,7 @@ const ComputersCanvas = () => {
         dampingFactor={0.3}
       />
      
-      <Stage contactShadow={{ resolution: 1024, scale: 1000 }}>
+      <Stage  contactShadow={{ resolution: 1024, scale: 1000 }}>
        <ComputerModel/>
       </Stage>
       </Suspense>

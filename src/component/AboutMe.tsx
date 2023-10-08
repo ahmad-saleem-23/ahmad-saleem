@@ -14,7 +14,7 @@ function AboutMe() {
             <div className="font-bold text-white">
               <h1 className="py-2 text-3xl font-bold  text-white">About me</h1>
               <p className="py-2">
-                Hey there, I am Ahmad! I am a multi-passionate professional who
+                Hey there, I am a multi-passionate professional who
                 recently made the jump into tech after practicing law for a
                 while.
               </p>
