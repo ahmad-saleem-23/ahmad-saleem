@@ -11,20 +11,16 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  carrent,
   jobit,
   tripguide,
-  threejs,
 } from '../assets'
 import PLaw from '../assets/company/PLaw.png'
 import DevAcademy from '../assets/company/DevAcademy.png'
 import provoke from '../assets/company/provoke.png'
 import accenture from '../assets/company/accenture.png'
 import book from '../assets/company/book.png'
+import subminder from '/images/subminder.png'
 
 export const navLinks = [
   {
@@ -98,7 +94,7 @@ const technologies = [
     name: 'git',
     icon: git,
   },
- ]
+]
 
 const experiences = [
   {
@@ -199,16 +195,65 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'SubMinder',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web-based platform that allows users to manage subscription and payment, from various providers, providing a convenient and efficient solution to keep track of your spending and commitments.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'postgres',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: subminder,
+    source_code_link:
+      'https://github.com/SubMinder-Group-Project/SubMinder/tree/email-reminder',
+    link: 'https://subminder-production.up.railway.app/',
+  },
+  {
+    name: 'My Full Stack App',
+    description:
+      'Web application that enables users to build up thier game collection. The App allow the user to add, update and delete games to their libarary collection.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mysql',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: jobit,
+    source_code_link: 'https://github.com/',
+    link: '',
+  },
+  {
+    name: 'Caption-This',
+    description:
+      'A fun project, where where users could add captions to random memes. The aim of the App was to create a fun and engaging experience for users.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
         color: 'green-text-gradient',
       },
       {
@@ -216,50 +261,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
     image: tripguide,
     source_code_link: 'https://github.com/',
+    link: '',
   },
 ]
 

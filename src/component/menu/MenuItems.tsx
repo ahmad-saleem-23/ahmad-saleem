@@ -18,9 +18,9 @@ const variants = {
   },
 }
 
-const colors = ['#010101', '#010101', '#010101', '#010101', '#010101']
-const list = ['Home', 'About Me', 'Experience', 'Tech', 'Contacts']
-const listLink = ['#', '#aboutMe', '#work', '#tech', '#contacts']
+const colors = ['#010101', '#010101', '#010101', '#010101', '#010101','#010101']
+const list = ['Home', 'About Me', 'Experience', 'Tech', 'Peojects','Contacts']
+const listLink = ['#', '#aboutMe', '#work', '#tech', '#projects','#contacts']
 
 interface Props {
   i: number
