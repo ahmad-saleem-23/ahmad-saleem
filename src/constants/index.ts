@@ -21,6 +21,7 @@ import provoke from '../assets/company/provoke.png'
 import accenture from '../assets/company/accenture.png'
 import book from '../assets/company/book.png'
 import subminder from '/images/subminder.png'
+import game from '/images/my-game-lib.png'
 
 export const navLinks = [
   {
@@ -237,7 +238,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
+    image: game,
     source_code_link: 'https://github.com/',
     link: '',
   },
