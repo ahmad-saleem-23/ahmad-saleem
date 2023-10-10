@@ -7,6 +7,7 @@ import Hero from './component/Hero'
 import Experience from './component/Experience'
 import Tach from './component/Tech'
 import Work from './component/Works'
+import StarsCanvas from './component/canvas/Stars'
 
 const App = () => {
   return (
@@ -22,9 +23,10 @@ const App = () => {
         <Tach />
         <Work />
         {/* <HorizontalScrollLoop/> */}
-      
+
         <div className="relative z-0">
           <Contacts />
+          <StarsCanvas />
         </div>
       </div>
     </>
