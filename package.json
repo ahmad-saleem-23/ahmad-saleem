@@ -11,7 +11,6 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "vite build && react-scripts start --omit=dev"
-
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -29,6 +28,7 @@
     "react-redux": "^8.1.2",
     "react-responsive": "^9.0.2",
     "react-router-dom": "^6.16.0",
+    "react-scripts": "^5.0.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "redux-thunk": "^2.4.2",
