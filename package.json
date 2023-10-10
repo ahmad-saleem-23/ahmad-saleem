@@ -1,10 +1,9 @@
 {
   "name": "ahmad-saleem-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://example.com/my-project",
-  "scripts": {
+    "scripts": {
     "dev": "vite",
     "build": "vite build",
     "build:css": "postcss src/index.css ",
