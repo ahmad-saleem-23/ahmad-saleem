@@ -1,20 +1,18 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  git,
-  jobit,
-  tripguide,
-} from '../assets'
+import backend from '../assets/backend.png'
+import creator from '../assets/creator.png'
+import mobile from '../assets/mobile.png'
+import web from '../assets/web.png'
+
+import css from '../assets/tech/css.png'
+
+import git from '../assets/tech/git.png'
+import html from '../assets/tech/html.png'
+import javascript from '../assets/tech/javascript.png'
+import nodejs from '../assets/tech/nodejs.png'
+import reactjs from '../assets/tech/reactjs.png'
+import redux from '../assets/tech/redux.png'
+import tailwind from '../assets/tech/tailwind.png'
+import typescript from '../assets/tech/typescript.png'
 import PLaw from '../assets/company/PLaw.png'
 import DevAcademy from '../assets/company/DevAcademy.png'
 import provoke from '../assets/company/provoke.png'
