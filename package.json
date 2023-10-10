@@ -10,7 +10,8 @@
     "build:css": "postcss src/index.css ",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "npm run build:css && react-scripts start"
+    "start": "vite build && react-scripts start --omit=dev"
+
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
