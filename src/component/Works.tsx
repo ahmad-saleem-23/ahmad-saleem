@@ -7,6 +7,7 @@ import linkimg from '../assets/linkimg.png'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
+
 interface ProjectCardProps {
   index: number
   name: string

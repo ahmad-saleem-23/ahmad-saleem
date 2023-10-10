@@ -22,6 +22,7 @@ import accenture from '../assets/company/accenture.png'
 import book from '../assets/company/book.png'
 import subminder from '/images/subminder.png'
 import game from '/images/my-game-lib.png'
+import captionThis from '/images/CaptionThis.png'
 
 export const navLinks = [
   {
@@ -260,7 +261,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
+    image: captionThis,
     source_code_link: 'https://github.com/',
     link: '',
   },
