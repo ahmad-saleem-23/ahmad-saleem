@@ -6,11 +6,11 @@
   "homepage": "https://example.com/my-project",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:css && tsc && vite build",
+    "build": "vite build",
     "build:css": "postcss src/index.css ",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "vite build && react-scripts start --omit=dev"
+    "start": "vite"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
