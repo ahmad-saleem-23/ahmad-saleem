@@ -1,0 +1,3 @@
+[env.production]
+BUILD_COMMAND = "npm run build"
+START_COMMAND = "npm start"
