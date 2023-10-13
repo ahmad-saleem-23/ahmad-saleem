@@ -142,11 +142,11 @@ const experiences = [
     company_name: 'Accenture',
     icon: accenture,
     iconBg: '#E6DEDD',
-    date: 'Jully 2023',
+    date: 'July 2023',
     points: [
       'I attended a four-day Accenture bootcamp involving sessions with presentations, workshops, and project development. Our team, SubsWise, secured first place under Accenture mentorship.',
       'Our goal was to create "SunWise," a mobile subscription reminder app using React Native. The project demanded strong teamwork, blending JavaScript and TypeScript for functionality, with me handling the backend while teammates improved the frontend.',
-      'Given time constraints, we employed SQLite initially but aimed to integrate PostgreSQL later for data handling optimization',
+      'Given time constraints, we employed SQLite initially but aimed to integrate PostgreSQL later for data handling optimisation',
       "This experience enhanced my technical skills, teamwork, and innovation, reinforcing the importance of collaboration in technology's ever-evolving landscape.",
     ],
   },
@@ -155,7 +155,7 @@ const experiences = [
     company_name: '...',
     icon: book,
     iconBg: '#E6DEDD',
-    date: 'Jully 2023 - Present',
+    date: 'July 2023 - Present',
     points: [
       'I am actively engaged in expanding my technical skill set by exploring new programming languages, frameworks, and tools. This includes self-paced online courses, tutorials, and hands-on projects.',
       'During this phase, I am dedicating a significant portion of my time to conceptualizing, developing, and launching personal projects. These projects not only serve as practical applications of my skills but also provide an opportunity to explore innovative ideas and solutions.',
@@ -222,7 +222,7 @@ const projects = [
   {
     name: 'My Full Stack App',
     description:
-      'Web application that enables users to build up thier game collection. The App allow the user to add, update and delete games to their libarary collection.',
+      'Web application that enables users to build up thier game collection. The App allow the user to add, update and delete games to their library collection.',
     tags: [
       {
         name: 'react',
@@ -238,13 +238,14 @@ const projects = [
       },
     ],
     image: game,
-    source_code_link: 'https://github.com/',
+    source_code_link:
+      'https://github.com/ahmad-saleem-23/Full-Stack-Collection',
     link: '',
   },
   {
     name: 'Caption-This',
     description:
-      'A fun project, where where users could add captions to random memes. The aim of the App was to create a fun and engaging experience for users.',
+      'A fun project, where users could add captions to random memes. The aim of the App was to create a fun and engaging experience for users.',
     tags: [
       {
         name: 'react',
@@ -260,7 +261,7 @@ const projects = [
       },
     ],
     image: captionThis,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ahmad-saleem-23/Caption-This',
     link: '',
   },
 ]

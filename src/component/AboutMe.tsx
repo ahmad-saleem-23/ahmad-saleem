@@ -14,9 +14,8 @@ function AboutMe() {
             <div className="font-bold text-white">
               <h1 className="py-2 text-3xl font-bold  text-white">About me</h1>
               <p className="py-2">
-                Hey there, I am a multi-passionate professional who
-                recently made the jump into tech after practicing law for a
-                while.
+                Hey there, I am a multi-passionate professional who recently
+                made the jump into tech after practicing law for a while.
               </p>
               <p className="py-2">
                 I completed a software development bootcamp and now I am excited
@@ -27,16 +26,9 @@ function AboutMe() {
               <p className="py-2">
                 When I am not busy coding or advocating for my clients, you can
                 find me exploring nature or trying out different cuisines with
-                my friends. And if you need a good laugh, I wont deny that I
+                my friends. And if you need a good laugh, I won't deny that I
                 have a bit of a meme addiction. Life is already chaotic enough,
-                so lets embrace the mess and enjoy the ride!
-              </p>
-
-              <p className="py-2">
-                Please feel free to explore this portfolio and website that I
-                built when I first started my bootcamp. I would like to showcase
-                my progress by highlighting where I started and how far I have
-                come with the projects I have built.
+                so let's embrace the mess and enjoy the ride!
               </p>
             </div>
             <div className="flex justify-center">
@@ -75,7 +67,7 @@ function AboutMe() {
               <img
                 src="./images/362885418_996708675096235_2649645303496825253_n.jpg"
                 alt="self-image"
-                className='rounded-2xl'
+                className="rounded-2xl"
                 style={{ width: '86%' }}
               />
             </div>

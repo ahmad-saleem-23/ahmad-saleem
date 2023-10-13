@@ -98,7 +98,7 @@ const Work = () => {
           className="mt-3 text-secondary text-[17px max-w-3xl leading-[30px"
         >
           The following projects are some of the projects I have worked on. I
-          have worked on a many projects and below is a some of which i would
+          have worked on many projects and below is a some of which i would
           like to showcase my skill and experiance through real-world example of
           my work.
         </motion.p>
