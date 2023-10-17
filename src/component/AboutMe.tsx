@@ -33,7 +33,7 @@ function AboutMe() {
             </div>
             <div className="flex justify-center">
               <p style={{ display: 'flex' }}>
-                <a href="https://github.com/ahmad-saleem-23">
+                <a href="https://github.com/ahmad-saleem-23" target="_blank">
                   <img
                     src="./images/icons8-github-50.png"
                     alt="github"
@@ -41,14 +41,17 @@ function AboutMe() {
                   />
                 </a>
 
-                <a href="https://www.linkedin.com/in/ahmad-ismail-saleem-4285281a6/">
+                <a
+                  href="https://www.linkedin.com/in/ahmad-ismail-saleem-4285281a6/ "
+                  target="_blank"
+                >
                   <img
                     src="./images/icons8-linked-in-50.png"
                     alt="linkedin"
                     className="h-35 w-35"
                   />
                 </a>
-                <a href="/images/Ahmed Saleem CV.pdf">
+                <a href="/images/Ahmed Saleem CV.pdf" target="_blank">
                   <img
                     src="./images/icons8-cv-50.png"
                     alt="CV"
