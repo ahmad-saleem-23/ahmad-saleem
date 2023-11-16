@@ -4,7 +4,7 @@ import mobile from '../assets/mobile.png'
 import web from '../assets/web.png'
 
 import css from '../assets/tech/css.png'
-
+import cSharp from '../assets/tech/cSharp.png'
 import git from '../assets/tech/git.png'
 import html from '../assets/tech/html.png'
 import javascript from '../assets/tech/javascript.png'
@@ -21,6 +21,7 @@ import book from '../assets/company/book.png'
 import subminder from '/images/subminder.png'
 import game from '/images/my-game-lib.png'
 import captionThis from '/images/CaptionThis.png'
+import dotNet from '../assets/tech/dotNet.png'
 
 export const navLinks = [
   {
@@ -94,6 +95,14 @@ const technologies = [
     name: 'git',
     icon: git,
   },
+  {
+    name: 'cSharp',
+    icon: cSharp,
+  },
+  {
+    name: 'dotNet',
+    icon: dotNet,
+  },
 ]
 
 const experiences = [
@@ -157,9 +166,9 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'July 2023 - Present',
     points: [
-      'I am actively engaged in expanding my technical skill set by exploring new programming languages, frameworks, and tools. This includes self-paced online courses, tutorials, and hands-on projects.',
+      'I am actively engaged in expanding my technical skill set by exploring new programming languages, frameworks, and tools. This includes self-paced online courses, tutorials, and hands-on projects. Recently, I have completed a course on C# and .NET, and I am currently learning Python.',
       'During this phase, I am dedicating a significant portion of my time to conceptualizing, developing, and launching personal projects. These projects not only serve as practical applications of my skills but also provide an opportunity to explore innovative ideas and solutions.',
-      'Implementing responsive design aI participate in tech-related meetups, webinars, and conferences, both online and in person, to stay up-to-date with industry trends and connect with like-minded professionals.',
+      'I participate in tech-related meetups, webinars, and conferences, both online and in person, to stay up-to-date with industry trends and connect with like-minded professionals.',
     ],
   },
 ]
